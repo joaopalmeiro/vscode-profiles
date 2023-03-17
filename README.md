@@ -7,3 +7,5 @@
   - `npx code-profiler Name`
 - `code --list-extensions --show-versions`
 - https://github.com/microsoft/vscode/issues/116740#issuecomment-1424717111
+- https://code.visualstudio.com/updates/v1_75#_profiles
+- https://code.visualstudio.com/updates/v1_76#_profiles

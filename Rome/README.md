@@ -12,7 +12,7 @@ code --profile Rome .
 npx code-profiler@latest Rome
 ```
 
-[Import the profile](https://code.visualstudio.com/updates/v1_75#_profiles) in VS Code and manually verify that the settings and extensions were successfully imported.
+[Import the profile](https://code.visualstudio.com/docs/editor/profiles) in VS Code and manually verify that the settings and extensions were successfully imported.
 
 ```bash
 code --list-extensions --show-versions --profile Rome
