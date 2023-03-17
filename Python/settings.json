@@ -1,0 +1,22 @@
+{
+  "window.zoomLevel": 1,
+  "workbench.iconTheme": "bearded-icons",
+  "workbench.colorTheme": "Houston",
+
+  // https://code.visualstudio.com/docs/python/settings-reference
+  "python.defaultInterpreterPath": "${workspaceFolder}/.hatch/dev/bin/python",
+  "python.analysis.inlayHints.variableTypes": true,
+  "python.analysis.inlayHints.functionReturnTypes": true,
+  "python.formatting.provider": "black",
+
+  // https://github.com/charliermarsh/ruff-vscode/tree/2023.8.0
+  "ruff.importStrategy": "fromEnvironment",
+  "[python]": {
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.ruff": true,
+      "source.organizeImports.ruff": true
+    },
+    "editor.rulers": [88]
+  }
+}
