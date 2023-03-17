@@ -1,7 +1,10 @@
 {
   "window.zoomLevel": 1,
-  "workbench.iconTheme": "bearded-icons",
   "workbench.colorTheme": "Houston",
+
+  // https://marketplace.visualstudio.com/items?itemName=BeardedBear.beardedicons
+  "workbench.iconTheme": "bearded-icons",
+  "workbench.tree.indent": 20,
 
   // https://code.visualstudio.com/docs/python/settings-reference
   "python.defaultInterpreterPath": "${workspaceFolder}/.hatch/dev/bin/python",
