@@ -12,6 +12,10 @@
   "python.analysis.inlayHints.functionReturnTypes": true,
   "python.formatting.provider": "black",
 
+  "python.linting.enabled": true,
+  "python.linting.lintOnSave": true,
+  "python.linting.mypyEnabled": true,
+
   // https://github.com/charliermarsh/ruff-vscode/tree/2023.8.0
   "ruff.importStrategy": "fromEnvironment",
   "[python]": {
