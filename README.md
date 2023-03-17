@@ -10,3 +10,4 @@
 - https://code.visualstudio.com/updates/v1_75#_profiles
 - https://code.visualstudio.com/updates/v1_76#_profiles
 - https://code.visualstudio.com/blogs/2017/03/07/extension-pack-roundup
+- `Preferences: Open Current Profile Settings (JSON)`

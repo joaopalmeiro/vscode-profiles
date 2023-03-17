@@ -7,11 +7,9 @@
   "workbench.tree.indent": 20,
 
   // https://code.visualstudio.com/docs/python/settings-reference
-  "python.defaultInterpreterPath": "${workspaceFolder}/.hatch/dev/bin/python",
   "python.analysis.inlayHints.variableTypes": true,
   "python.analysis.inlayHints.functionReturnTypes": true,
   "python.formatting.provider": "black",
-
   "python.linting.enabled": true,
   "python.linting.lintOnSave": true,
   "python.linting.mypyEnabled": true,

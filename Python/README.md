@@ -17,3 +17,7 @@ npx code-profiler@latest Python
 ```bash
 code --list-extensions --show-versions --profile Python
 ```
+
+## Notes
+
+- https://code.visualstudio.com/docs/python/environments#_manually-specify-an-interpreter
