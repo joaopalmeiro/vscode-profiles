@@ -23,5 +23,12 @@
       "source.organizeImports.ruff": true
     },
     "editor.rulers": [88]
-  }
+  },
+
+  // https://github.com/tamasfe/taplo/blob/release-even-better-toml-0.19.0/editors/vscode/package.json#L161
+  // https://taplo.tamasfe.dev/configuration/file.html
+  // https://taplo.tamasfe.dev/configuration/formatter-options.html
+  "evenBetterToml.taplo.configFile.enabled": false,
+  "evenBetterToml.formatter.columnWidth": 88,
+  "evenBetterToml.formatter.allowedBlankLines": 1
 }
