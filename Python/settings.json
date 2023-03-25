@@ -15,6 +15,7 @@
   "python.linting.mypyEnabled": true,
 
   // https://github.com/charliermarsh/ruff-vscode/tree/2023.8.0
+  // https://github.com/charliermarsh/ruff-vscode/releases
   "ruff.importStrategy": "fromEnvironment",
   "[python]": {
     "editor.formatOnSave": true,
