@@ -1,5 +1,7 @@
 # vscode-profiles
 
+Opinionated, ready-to-import [VS Code Profiles](https://code.visualstudio.com/docs/editor/profiles).
+
 ## Notes
 
 - https://github.com/joaopalmeiro/code-profiler:
