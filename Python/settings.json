@@ -30,5 +30,11 @@
   // https://taplo.tamasfe.dev/configuration/formatter-options.html
   "evenBetterToml.taplo.configFile.enabled": false,
   "evenBetterToml.formatter.columnWidth": 88,
-  "evenBetterToml.formatter.allowedBlankLines": 1
+  "evenBetterToml.formatter.allowedBlankLines": 1,
+  // https://github.com/tamasfe/taplo/issues/100
+  // https://github.com/tamasfe/taplo/issues/127
+  "[toml]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "tamasfe.even-better-toml"
+  }
 }
