@@ -22,4 +22,4 @@ code --list-extensions --show-versions --profile Python
 
 - https://code.visualstudio.com/docs/python/environments#_manually-specify-an-interpreter
 - https://github.com/microsoft/vscode-python/blob/2023.4.0/package.json
-- https://www.compart.com/en/unicode/U+200B
+- https://www.compart.com/en/unicode/U+200B + https://en.wikipedia.org/wiki/Zero-width_space

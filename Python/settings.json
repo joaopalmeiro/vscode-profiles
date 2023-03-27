@@ -41,10 +41,15 @@
 
   // https://github.com/redhat-developer/vscode-yaml/releases
   // https://github.com/redhat-developer/vscode-yaml/blob/1.12.2/package.json#L82
+  // https://github.com/redhat-developer/vscode-yaml/blob/1.12.2/package.json#L229
   // https://github.com/redhat-developer/vscode-yaml/issues/812
   "redhat.telemetry.enabled": false,
   "yaml.extension.recommendations": false,
   "yaml.format.printWidth": 88,
+  "[yaml]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
 
   "gremlins.showInProblemPane": true
 }
