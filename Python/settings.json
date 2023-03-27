@@ -29,13 +29,22 @@
   // https://github.com/tamasfe/taplo/blob/release-even-better-toml-0.19.0/editors/vscode/package.json#L161
   // https://taplo.tamasfe.dev/configuration/file.html
   // https://taplo.tamasfe.dev/configuration/formatter-options.html
+  // https://github.com/tamasfe/taplo/issues/100
+  // https://github.com/tamasfe/taplo/issues/127
   "evenBetterToml.taplo.configFile.enabled": false,
   "evenBetterToml.formatter.columnWidth": 88,
   "evenBetterToml.formatter.allowedBlankLines": 1,
-  // https://github.com/tamasfe/taplo/issues/100
-  // https://github.com/tamasfe/taplo/issues/127
   "[toml]": {
     "editor.formatOnSave": true,
     "editor.defaultFormatter": "tamasfe.even-better-toml"
-  }
+  },
+
+  // https://github.com/redhat-developer/vscode-yaml/releases
+  // https://github.com/redhat-developer/vscode-yaml/blob/1.12.2/package.json#L82
+  // https://github.com/redhat-developer/vscode-yaml/issues/812
+  "redhat.telemetry.enabled": false,
+  "yaml.extension.recommendations": false,
+  "yaml.format.printWidth": 88,
+
+  "gremlins.showInProblemPane": true
 }

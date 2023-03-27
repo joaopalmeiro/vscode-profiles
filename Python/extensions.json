@@ -8,6 +8,7 @@
     "ms-python.python",
     "ms-python.vscode-pylance",
     "nhoizey.gremlins",
+    "redhat.vscode-yaml",
     "shardulm94.trailing-spaces",
     "tamasfe.even-better-toml"
   ]
